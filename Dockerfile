@@ -17,3 +17,4 @@ RUN echo './utils/launch.sh  --vnc localhost:7900 --listen 8900 ' >>/Stephen.sh
 RUN chmod 755 /Stephen.sh
 EXPOSE 8900
 CMD  /Stephen.sh
+
